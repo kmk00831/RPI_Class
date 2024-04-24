@@ -22,10 +22,11 @@ def main():
     #    print(A)
     #    A=A+1 
     
-    for i in range(0,100,1):
-        if(i==50):
-            break
-        print(i)
+    a= input()
+    if a == 'a':
+        print("right")
+    else:
+        print("wrong")
         
     
     
